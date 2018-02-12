@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:orientation="vertical"
+    android:orientation="vertical"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.mursitaffandi.binaronlineassesment.InpotDataActivity">
+    tools:context="com.mursitaffandi.binaronlineassesment.view.InputDataActivity">
 
     <EditText
         android:id="@+id/edt_nama"
@@ -12,7 +12,7 @@ android:orientation="vertical"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name" />
+        />
 
     <EditText
         android:id="@+id/edt_jumlah"
@@ -20,7 +20,7 @@ android:orientation="vertical"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name" />
+         />
 
     <EditText
         android:id="@+id/edt_pemasok"
@@ -28,15 +28,16 @@ android:orientation="vertical"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name" />
+        />
 
-    <DatePicker
-        android:id="@+id/datePicker"
-        android:layout_width="269dp"
-        android:layout_height="231dp" />
+    <TextView
+        android:id="@+id/tv_date"
+        android:hint="Tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
     <Button
-        android:id="@+id/add"
+        android:id="@+id/btn_add"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Button" />

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Binar Online Assesment</string>
+    <string name="title_activity_utama">UtamaActivity</string>
 </resources>
